@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JTGeats - Home Food Delivery</title>
+  <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+  <div class="header-container">
+    <!-- Logo -->
+    <div class="logo">JTGeats</div>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Menu</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- Icons -->
+    <div class="header-icons">
+      <!-- Search Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M10 2a8 8 0 105.29 14.31l4.4 4.39 1.42-1.41-4.4-4.39A8 8 0 0010 2zm0 2a6 6 0 11-4.243 10.243A6 6 0 0110 4z"/>
+      </svg>
+      <!-- Cart Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">
+        <path d="M7 18a2 2 0 11-4 0 2 2 0 014 0zm11-2H8v-2h10l-1.6-7H6l-1.4-4H1v2h2l3.6 7.59-1.35 2.44A1 1 0 005 18h13a1 1 0 001-1v-1z"/>
+      </svg>
+    </div>
+  </div>
+</header>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Authentic Home food in India</h1>
+      <p>JTGeats is a courier service in which authentic home cook food is delivered to a customer.</p>
+      <div class="search-bar">
+        <input type="search" placeholder="Search food you love" />
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="hero-illustration">
+      <img src="image1.jpg" alt="Cooking Illustration" />
+    </div>
+  </section>
+  <!-- Home Kitchen Section -->
+   <section class="home-kitchen-section">
+  <h2 class="section-title">Home Kitchen</h2>
+  <div class="home-kitchen-grid" id="homeKitchenGrid"></div>
+</section>
+
+  <!-- Popular Items Section -->
+  <section class="popular-section">
+    <h2>Popular Items</h2>
+    <div class="carousel-container">
+      <div class="carousel-arrow left" id="carouselPrev">❮</div>
+      <div class="carousel-arrow right" id="carouselNext">❯</div>
+      <div class="carousel-list" id="carouselList"></div>
+    </div>
+    <button class="request-btn">Request a Dish</button>
+  </section>
+  <!-- Video Section -->
+<section class="hero-section">
+  <div class="video-container">
+      <img src="service section.jpg" alt="Home cooked food" />
+
+    </div>
+  </div>
+  
+
+   
+</section>
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <form class="contact-form" id="contactForm">
+      <div>
+        <label for="name">Your Name</label><br />
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <label for="email">Your e-mail</label><br />
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="message">Your message</label><br />
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="delivery-illustration">
+      <img src="image18.jpg" alt="Delivery Scooter"/>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+  <div class="footer-container">
+    <!-- Logo -->
+    <div class="logo">JTGeats</div>
+
+    <!-- Links -->
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Menu</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+          <path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6c0-1.085.915-2 2-2h2V0h-3a5 5 0 0 0-5 5v3z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+          <path d="M16 0H8a6 6 0 0 0-6 6v8a6 6 0 0 0 6 6h8a6 6 0 0 0 6-6V6a6 6 0 0 0-6-6zM12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm4.5-7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="script (1).js"></script>
+</body>
+</html>
